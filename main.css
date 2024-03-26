@@ -1,0 +1,74 @@
+body {
+    /* margin: 0 auto; */
+    font-family: monospace;
+    background-color: antiquewhite;
+}
+
+.welcome {
+    box-sizing: border-box;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+    margin: 0 auto;
+    position: sticky;
+    z-index: 2;
+    top: 0px;
+
+}
+
+.lang { 
+    text-align: center;
+    overflow: hidden;
+    list-style: none;
+    padding-bottom: 60px;
+    position: relative;
+
+}
+
+
+.programminglang li{
+    list-style-type: none;
+    font-size: large;
+    text-decoration: none;
+    padding-top: 60px;
+}
+
+
+.programminglang a {
+    color: #007bff; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+    font-weight: bold; 
+}
+
+.programminglang a:hover {
+    color: #0056b3; 
+}
+
+
+#Python {
+    margin: 30px 60px;
+    border: 1px solid;
+    
+}
+
+#Python p {
+    line-height: 40px;
+    padding-left: 5px;
+}
+
+.learnmore {
+    font-weight: bold;
+}
+
+
+#Java { 
+    border: 1px solid;
+    margin: 0 60px;
+}
+
+#Java p {
+    line-height: 40px;
+    padding: 10px 10px;
+}
